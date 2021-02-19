@@ -25,8 +25,12 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
     """Return a friendly HTTP greeting."""
-    return 'Hey Christian & Sherry, look at my coding skills!!!'
-
+    # return 'Hey Christian & Sherry, look at my coding skills!!!'
+    Clean summation code
+    numberA = input("Please insert random number A: ")
+    numberB = input("Please insert random number B: ")
+    
+    print(float(numberA) + float(numberB))
 
 if __name__ == '__main__':
     # This is used when running locally only. When deploying to Google App
