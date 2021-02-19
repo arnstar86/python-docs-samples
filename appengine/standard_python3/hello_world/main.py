@@ -26,7 +26,7 @@ app = Flask(__name__)
 def hello():
     """Return a friendly HTTP greeting."""
     # return 'Hey Christian & Sherry, look at my coding skills!!!'
-    Clean summation code
+    print("Clean summation code")
     numberA = input("Please insert random number A: ")
     numberB = input("Please insert random number B: ")
     
