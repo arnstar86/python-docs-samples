@@ -25,7 +25,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
     """Return a friendly HTTP greeting."""
-    return 'Hier entsteht die Squadra Abbronzati App'
+    return 'Hällo, Johanna!'
     
     # return 'Hey Christian & Sherry, look at my coding skills!!!'
     # print("Clean summation code")
